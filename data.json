@@ -1,0 +1,47 @@
+{
+    "0": {
+        "id": "0",
+        "project_name": "Random Quote Generator",
+        "description": "An app that displays random famous quotes each time a button is clicked.",
+        "technologies": ["html", "css","JavaScript"],
+        "live_link": "",
+        "github_link": "https://github.com/anthonyprabowo/project_1",
+        "image_urls": "/static/images/project1.png"
+    },
+    "1": {
+        "id": "1",
+        "project_name": "Data Pagination and Filtering",
+        "description": "Use a common web development technique known as “pagination” to enhance the usability of a web page.",
+        "technologies": ["html", "css","JavaScript"],
+        "live_link": "",
+        "github_link": "https://github.com/anthonyprabowo/project_2",
+        "image_urls": "/static/images/project2.png"
+    },
+    "2": {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "Use JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
+        "technologies": ["html", "css","JavaScript"],
+        "live_link": "",
+        "github_link": "https://github.com/anthonyprabowo/project_3",
+        "image_urls": "/static/images/project3.png"
+    },
+    "3": {
+        "id": "3",
+        "project_name": "OOP Game Show App",
+        "description": "Use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+        "technologies": ["html", "css","JavaScript"],
+        "live_link": "",
+        "github_link": "https://github.com/anthonyprabowo/project_4",
+        "image_urls": "/static/images/project4.png"
+    },
+    "4": {
+        "id": "4",
+        "project_name": "Public API Request",
+        "description": "Build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world.",
+        "technologies": ["html", "css","JavaScript", "fetch API"],
+        "live_link": "",
+        "github_link": "https://github.com/anthonyprabowo/project_5",
+        "image_urls": "/static/images/project5.png"
+    }
+}
