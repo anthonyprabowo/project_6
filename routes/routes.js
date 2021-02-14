@@ -16,6 +16,8 @@ router.get('/project/:id', (req,res) => {
         project_name: data[id].project_name,
         description: data[id].description,
         technologies: data[id].technologies,
+        project_repo: data[id].github_link,
+        images: data[id].image_urls
     });
 });
 

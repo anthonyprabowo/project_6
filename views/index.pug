@@ -8,7 +8,7 @@ block content
     h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Hello everyone! My name is Anthony and I'm a full stack web developer in the making! This is my portfolio where I can show off a few of my application/project that I've built.
 
 
   article.portfolio-project-thumbs
@@ -24,6 +24,6 @@ block content
 
         .cell
           a(href=`/project/${project_data.id}`)
-            img.thumbnail(src=`${project_data.image_urls}`, alt='my projects')
+            img.thumbnail(src=`${project_data.image_urls[0]}`, alt='my projects')
             h5= project_data.project_name
 
