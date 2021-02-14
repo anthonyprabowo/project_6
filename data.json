@@ -4,7 +4,7 @@
         "project_name": "Random Quote Generator",
         "description": "An app that displays random famous quotes each time a button is clicked.",
         "technologies": ["html", "css","JavaScript"],
-        "live_link": "",
+        "live_link": "https://anthonyprabowo.github.io/project_1/index.html",
         "github_link": "https://github.com/anthonyprabowo/project_1",
         "image_urls": ["/static/images/project1.png", "/static/images/project1l1.png", "/static/images/project1l2.png", "/static/images/project1l3.png"]
     },
@@ -13,7 +13,7 @@
         "project_name": "Data Pagination and Filtering",
         "description": "Use a common web development technique known as “pagination” to enhance the usability of a web page.",
         "technologies": ["html", "css","JavaScript"],
-        "live_link": "",
+        "live_link": "https://anthonyprabowo.github.io/project_2/index.html",
         "github_link": "https://github.com/anthonyprabowo/project_2",
         "image_urls": ["/static/images/project2.png", "/static/images/project2l1.png", "/static/images/project2l2.png", "/static/images/project2l3.png"]
     },
@@ -22,7 +22,7 @@
         "project_name": "Interactive Form",
         "description": "Use JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
         "technologies": ["html", "css","JavaScript"],
-        "live_link": "",
+        "live_link": "https://anthonyprabowo.github.io/project_3/index.html",
         "github_link": "https://github.com/anthonyprabowo/project_3",
         "image_urls": ["/static/images/project3.png", "/static/images/project3l1.png", "/static/images/project3l2.png", "/static/images/project3l3.png"]
     },
@@ -31,7 +31,7 @@
         "project_name": "OOP Game Show App",
         "description": "Use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
         "technologies": ["html", "css","JavaScript"],
-        "live_link": "",
+        "live_link": "https://anthonyprabowo.github.io/project_4/index.html",
         "github_link": "https://github.com/anthonyprabowo/project_4",
         "image_urls": ["/static/images/project4.png", "/static/images/project4l1.png", "/static/images/project4l2.png", "/static/images/project4l3.png"]
     },
@@ -40,7 +40,7 @@
         "project_name": "Public API Request",
         "description": "Build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world.",
         "technologies": ["html", "css","JavaScript", "fetch API"],
-        "live_link": "",
+        "live_link": "https://anthonyprabowo.github.io/project_5/index.html",
         "github_link": "https://github.com/anthonyprabowo/project_5",
         "image_urls": ["/static/images/project5.png", "/static/images/project5l1.png", "/static/images/project5l2.png", "/static/images/project5l3.png"]
     }

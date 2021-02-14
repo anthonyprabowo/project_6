@@ -1,0 +1,11 @@
+extends layout.pug 
+
+block content 
+    h1 Oh No, something going on with our server :(
+    p= err.status 
+    p= err.stack
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
