@@ -3,7 +3,7 @@ const router = express.Router();
 const data = require('../data.json');
 // routes
 router.get('/', (req, res) => {
-    res.render('index', {project_datas: data});
+    res.render('index', {project_datas: data["projects"]});
 });
 
 router.get('/about', (req, res) => {
@@ -13,12 +13,12 @@ router.get('/about', (req, res) => {
 router.get('/project/:id', (req,res) => {
     const id = req.params.id;
     res.render('project', {
-        project_name: data[id].project_name,
-        description: data[id].description,
-        technologies: data[id].technologies,
-        project_link: data[id].live_link,
-        project_repo: data[id].github_link,
-        images: data[id].image_urls
+        project_name: data["projects"][id].project_name,
+        description: data["projects"][id].description,
+        technologies: data["projects"][id].technologies,
+        project_link: data["projects"][id].live_link,
+        project_repo: data["projects"][id].github_link,
+        images: data["projects"][id].image_urls
     });
 });
 
