@@ -7,9 +7,9 @@ function fourOFour(req, res, next) {
 };
 
 function generalError(err, req, res, next) {
+    console.error(err.message)
+    console.error(err.status)
     if(err.status === 404){
-        console.error(err.message)
-        console.error(err.status)
         res.render('page-not-found', {err})
     } else {
         res.render('error', {err})
