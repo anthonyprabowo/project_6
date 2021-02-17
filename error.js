@@ -15,8 +15,8 @@ function generalError(err, req, res, next) {
     if(err.status === 404){
         res.render('page-not-found', {err})
     } else {
-        err.message = err.message || 'Opps! it looks like something went wrong on ther server.'
-        res.status(500).send('error', {err})
+        err.message = err.message
+        res.render('error', {err});
     }
 };
 
